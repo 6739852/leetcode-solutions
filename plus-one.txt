@@ -1,0 +1,14 @@
+/**
+ * LeetCode Problem: plus one
+ * Language: unknown
+ * Date: 8/3/2025 at 05:18 PM
+ * URL: https://leetcode.com/problems/plus-one/submissions/1721968146/
+ * 
+ * Solution:
+ */
+
+                digits[i] += 1
+                return digits;
+            digits[i] = 0;
+        return [1] + [0] * n
+        
