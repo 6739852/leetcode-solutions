@@ -1,0 +1,12 @@
+/*
+ * LeetCode Problem: Reverse Integer
+ * Language: unknown
+ * Date: 8/3/2025 at 04:48 PM
+ * URL: https://leetcode.com/problems/reverse-integer/
+ * 
+ * Solution:
+ */
+
+        return result;
+    }
+};
