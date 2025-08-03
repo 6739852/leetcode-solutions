@@ -1,16 +1,19 @@
-/**
+/*
  * LeetCode Problem: Longest Palindromic Substring
  * Language: unknown
- * Date: 8/3/2025 at 04:35 PM
+ * Date: 8/3/2025 at 04:42 PM
  * URL: https://leetcode.com/problems/longest-palindromic-substring/
  * 
  * Solution:
  */
 
-            expandAroundCenter(i, i);     // לבדוק פלינדרום באורך אי זוגי
-            expandAroundCenter(i, i + 1); // לבדוק פלינדרום באורך זוגי
-        }
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        int n = s.length();
+        if (n < 2) return s;
 
-        return s.substr(start, maxLen);
-    }
-};
+        int start = 0, maxLen = 1;
+
+        auto expandAroundCenter = [&](int left, int right) {
+            while (left >= 0 && right < n && s[left] == s[right]) {
