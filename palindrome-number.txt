@@ -1,0 +1,15 @@
+/**
+ * LeetCode Problem: palindrome number
+ * Language: unknown
+ * Date: 8/3/2025 at 04:59 PM
+ * URL: https://leetcode.com/problems/palindrome-number/
+ * 
+ * Solution:
+ */
+
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        
+    }
+};
