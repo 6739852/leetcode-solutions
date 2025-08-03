@@ -1,0 +1,16 @@
+/*
+ * בעיה: Intuition
+ * קישור: https://leetcode.com/problems/4sum/post-solution/?submissionId=1721881311
+ * שפה: unknown
+ * תאריך פתרון: 3.8.2025
+ */
+
+# Intuition
+<!-- Describe your first thoughts on how to solve this problem. -->
+
+# Approach
+<!-- Describe your approach to solving the problem. -->
+
+# Complexity
+- Time complexity:
+<!-- Add your time complexity here, e.g. $$O(n)$$ -->
